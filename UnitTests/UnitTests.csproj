@@ -18,6 +18,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\abstract-factory-pattern\abstract-factory-pattern.csproj" />
+      <ProjectReference Include="..\Builder-pattern\Builder-pattern.csproj" />
       <ProjectReference Include="..\factory-pattern\factory-pattern.csproj" />
     </ItemGroup>
 

@@ -20,4 +20,11 @@ public sealed class Test1
         app.start();
     }
 
+    [TestMethod]
+    public void builderPattern()
+    {
+        Builder_pattern.Client app = new Builder_pattern.Client();
+        Builder_pattern.Client.start();
+    }
+
 }
