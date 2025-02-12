@@ -1,0 +1,13 @@
+#directories
+.idea/
+
+#files
+*.sln
+*.dll
+*.pdb
+*.json
+*.cache
+*.AssemblyAttributes.cs
+*.user
+*.GlobalUsings.g.cs
+*.info

@@ -27,4 +27,11 @@ public sealed class Test1
         Builder_pattern.Client.start();
     }
 
+    [TestMethod]
+    public void second_part_pattern()
+    {
+        second_part_patterns.Client app = new second_part_patterns.Client();
+        app.run();
+    }
+
 }
