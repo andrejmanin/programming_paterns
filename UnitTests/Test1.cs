@@ -1,5 +1,6 @@
 ﻿using abstract_factory_patern;
 using factory_patern;
+using flyweight;
 
 namespace UnitTests;
 
@@ -32,6 +33,13 @@ public sealed class Test1
     {
         second_part_patterns.Client app = new second_part_patterns.Client();
         app.run();
+    }
+
+    [TestMethod]
+    public void flyweight_pattern()
+    {
+        Game game = new Game();
+        game.start();
     }
 
 }
